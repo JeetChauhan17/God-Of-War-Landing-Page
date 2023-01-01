@@ -1,0 +1,120 @@
+.main{
+    background-color: black;
+}
+
+.logo{
+    width: 75px;
+    height: 36px;
+    background-color: black;
+}
+.we{
+    width: 60px;
+    height: 30px;
+}
+.wee{
+    margin-bottom: -30px;
+}
+.mnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+.mnav li {
+   float: left;
+}
+.mnav li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.mnavli a:hover:not(.active) {
+    background-color: #ddd;
+  }
+  
+.mnav li a.active {
+    color: white;
+    background-color: #04AA6D;
+  }
+  .w{
+    width: 200px;
+    height: 44px;
+    margin-right: 180px;
+  }
+  /* .wee{
+    width: 200px;
+    height: 48px;
+  } */
+.snav li{
+    /* font-size: 20px; */
+    align-items: center;
+    color: #000;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: -10px;
+    padding-left: 18px;
+}
+.snav li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.snav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+}
+.co{
+    background-image: url("images/back1.jpg");
+    width: 1365.89px;
+    height: 506.11px;
+    margin: 0%;
+}
+.go{
+    height: 506.11px;
+    float: right;
+    /* padding-right: 0px; */
+    /* clear: left; */
+}
+.goimg{
+    /* width: 479px; */
+    height: 100.79px;
+    margin-top: 145px;
+    padding-left: 60px;
+    margin-left: 60px;
+}
+/* .column{
+    float: left;
+    padding: 5px;
+    width: 50;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+} */
+.clearfix{
+    font-family: 'Baron Neue Bold Italic', sans-serif;
+    color: rgb(228, 240, 241);
+    /* padding-left: 60px; */
+    /* margin-left: 60px; */
+    /* clear: right; */
+    overflow: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
